@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samet Çakmak</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NJJRPDMVNM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NJJRPDMVNM');
+</script>
+</head>
+<body>
+    <header>
+        <h1 class="site-title">Samet Çakmak</h1>
+    </header>    
+    <nav>
+        <a href="#about">Hakkımda</a>
+        <a href="#skills">Yetenekler</a>
+        <a href="#contact">İletişim</a>
+        <a href="#hobbies">Hobilerim</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>Hakkımda</h2>
+            <img src="resim/profile.jpg" alt="Profil Resmi" class="profile-image">
+            <p>Merhaba, ben Samet Çakmak. Sinop Üniversitesi Ayancık MYO'da Internet ve Ağ Teknolojileri bölümünde öğrenim görüyorum. Teknolojiye olan ilgim, kodlama sevgimle birleşiyor ve bu alanda sürekli kendimi geliştirmeyi hedefliyorum. İstanbul'da yaşıyorum. Aynı zamanda astronomiyle ilgilenmeyi çok seviyorum. Yapay zeka gelişmelerini ise yakından takip ederek, bu alandaki yenilikleri öğrenmeye devam ediyorum. Teknoloji ve bilim dünyasında daha fazla keşif yapmak için hevesliyim.</p>
+        </section>
+        
+        <section id="skills">
+            <h2>Yetenekler</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <i class="fab fa-python"></i>
+                    <p>Python</p>
+                    <div class="progress-bar">
+                        <div class="progress python"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-cuttlefish"></i> 
+                    <p>C#</p>
+                    <div class="progress-bar">
+                        <div class="progress csharp"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <p>HTML</p>
+                    <div class="progress-bar">
+                        <div class="progress html"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                    <p>JavaScript</p>
+                    <div class="progress-bar">
+                        <div class="progress javascript"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="hobbies">
+            <h2>Hobilerim</h2>
+            <div class="hobbies-container">
+                <div class="hobby">
+                    <i class="fas fa-music"></i>
+                    <p>Müzik Dinlemek</p>
+                </div>
+                <div class="hobby">
+                    <i class="fas fa-film"></i>
+                    <p>Film İzlemek</p>
+                </div>
+                <div class="hobby">
+                    <i class="fas fa-gamepad"></i>
+                    <p>Bilgisayar Oyunu Oynamak</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>İletişim</h2>
+            <form id="contact-form" action="mailto:sametcakf@gmail.com" method="POST" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Adınız:</label>
+                    <input type="text" id="name" name="name" placeholder="Adınız" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-posta:</label>
+                    <input type="email" id="email" name="email" placeholder="E-posta adresiniz" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesajınız:</label>
+                    <textarea id="message" name="message" placeholder="Mesajınızı buraya yazın" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Gönder</button>
+            </form>
+        </section>
+        
+        <section id="contact">
+            <div class="contact-icons">
+                <a href="https://github.com/Ramothq" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/samet-%C3%A7akmak-5a186216b/" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="mailto:sametcakf@gmail.com">
+                    <i class="fas fa-envelope"></i> E-posta
+                </a>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        &copy; 2025 Samet Çakmak. Tüm hakları saklıdır.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
